@@ -1,0 +1,176 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-bottom: 50px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section {
+  background-color: white;
+}
+
+.colored-section {
+  background-color: #FF4C68;
+  color: white;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 130px 0;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  padding: 0 30px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/* Title Section */
+
+.iphone-mockup {
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+  position: absolute;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 10%;
+  text-align: left;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+#features i {
+  color: #ef8172;
+  margin-bottom: 15px;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features .col-lg-4 {
+  margin-bottom: 50px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-column {
+  width: 67%;
+  margin: 0 auto;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 12%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* Pricing Section */
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+/* Footer */
+
+#footer {
+  padding: 5%;
+  background-color: white;
+}
+
+.footer-icon {
+  margin: 10px 10px 20px;
+}
+
+/******************************  MEDIA  ************************************/
+
+@media (max-width: 1030px) {
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+    margin-top: 30px;
+  }
+
+  #title .container-fluid {
+    text-align: center;
+  }
+}
